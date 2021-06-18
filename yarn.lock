@@ -1712,6 +1712,13 @@ axe-core@^4.0.2:
   resolved "http://58.210.154.140:13011/repository/bocloud-npm/axe-core/-/axe-core-4.2.0.tgz#6594db4ee62f78be79e32a7295d21b099b60668d"
   integrity sha1-ZZTbTuYveL554ypyldIbCZtgZo0=
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "http://58.210.154.140:13011/repository/bocloud-npm/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha1-IlY0gZYvTWvemnbVFu8OXTwJsrg=
+  dependencies:
+    follow-redirects "^1.10.0"
+
 axobject-query@^2.2.0:
   version "2.2.0"
   resolved "http://58.210.154.140:13011/repository/bocloud-npm/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -3793,6 +3800,11 @@ follow-redirects@^1.0.0:
   version "1.14.0"
   resolved "http://58.210.154.140:13011/repository/bocloud-npm/follow-redirects/-/follow-redirects-1.14.0.tgz#f5d260f95c5f8c105894491feee5dc8993b402fe"
   integrity sha1-9dJg+VxfjBBYlEkf7uXciZO0Av4=
+
+follow-redirects@^1.10.0:
+  version "1.14.1"
+  resolved "http://58.210.154.140:13011/repository/bocloud-npm/follow-redirects/-/follow-redirects-1.14.1.tgz#d9114ded0a1cfdd334e164e6662ad02bfd91ff43"
+  integrity sha1-2RFN7Qoc/dM04WTmZirQK/2R/0M=
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -6505,6 +6517,11 @@ react-is@^16.13.1, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "http://58.210.154.140:13011/repository/bocloud-npm/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-lazyload@^3.2.0:
+  version "3.2.0"
+  resolved "http://58.210.154.140:13011/repository/bocloud-npm/react-lazyload/-/react-lazyload-3.2.0.tgz#497bd06a6dbd7015e3376e1137a67dc47d2dd021"
+  integrity sha1-SXvQam29cBXjN24RN6Z9xH0t0CE=
 
 react-redux@^7.2.4:
   version "7.2.4"

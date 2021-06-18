@@ -28,7 +28,7 @@ module.exports = merge(webpackBaseConfig,{
         }
       },
       contentBase: path.join(__dirname, '../dist'),
-      port: 9000,
+    //   port: 9000,
       historyApiFallback: true, // 当找不到路径的时候，默认加载index.html文件
       hot: true,
       contentBase: false,
