@@ -14,10 +14,8 @@ import { filterIndex, filterIdx } from '../../api/utils';
 import { renderRoutes } from 'react-router-config';
 
 function Rank(props) {
-  const { rankList:list, loading } = props;
-
+  const { rankList: list, loading } = props;
   const { getRankListDataDispatch } = props;
-
   let rankList = list ? list.toJS() : [];
 
   useEffect(() => {
@@ -55,7 +53,7 @@ function Rank(props) {
        {
         list.map((item) => {
           return (
-            <ListItem key={item.coverImgId} tracks={item.tracks} onClick={() => enterDetail(item.name)}>
+            <ListItem key={item.id} tracks={item.tracks} onClick={() => enterDetail(item.name)}>
               <div className="img_wrapper">
                 <img src={item.coverImgUrl} alt=""/>
                 <div className="decorate"></div>
@@ -79,7 +77,7 @@ function Rank(props) {
             { renderRankList(officialList) }
           <h1 className="global" style={displayStyle}>全球榜</h1>
             { renderRankList(globalList, true) }
-          { loading ? <EnterLoading><Loading></Loading></EnterLoading> : null }
+          { loading ? <EnterLoading><Loading show={loading}></Loading></EnterLoading> : null }
         </div>
       </Scroll> 
       {renderRoutes(props.route.routes)}

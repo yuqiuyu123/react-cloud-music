@@ -1,3 +1,5 @@
+import { RankTypes } from "./config";
+
 export const getCount = (count) => {
   if (count < 0) return;
   if (count < 10000) {
@@ -29,4 +31,12 @@ export const filterIndex = rankList => {
       return i + 1;
     }
   }
+};
+
+//找出排行榜的编号
+export const filterIdx = name => {
+  for (var key in RankTypes) {
+    if (RankTypes[key] === name) return key;
+  }
+  return null;
 };

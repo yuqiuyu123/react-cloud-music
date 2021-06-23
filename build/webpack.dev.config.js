@@ -36,5 +36,6 @@ module.exports = merge(webpackBaseConfig,{
       noInfo: false,
       overlay: true,
       stats: 'errors-only'
-    }
+    },
+    devtool: 'inline-source-map'
 })
